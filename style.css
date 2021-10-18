@@ -47,27 +47,33 @@ p {
 }
 
 .currency {
-  padding: 40px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .currency select {
-  padding: 10px 20px 10px 10px;
+  padding: 1.6rem 2rem;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  border: 1px solid #dedede;
+  border: none;
   font-size: 16px;
-  background: transparent;
+  background: #f6f7f8;
+  /* background: transparent; */
   background-image: url(./Group\ 36215.svg);
   background-position: right 10px top 50%, 0, 0;
   background-size: 12px auto, 100%;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
-
+.labell{
+  font-size: 12px;
+  position: absolute;
+  color: #bfbfbf;
+  margin: 1rem 1rem;
+}
 .currency input {
   /* border: 0; */
   background: transparent;
@@ -75,8 +81,10 @@ p {
   border: solid 1px #f3f3f3;
   /* text-align: right; */
   border-radius: 5px;
-  padding: 0.6rem;
+  padding: 2rem 1rem 1rem;
   width: 20rem;
+  margin: 0rem -3rem 0rem 0rem;
+  background: #f6f7f8;
 }
 
 .swap-rate-container {
@@ -110,6 +118,21 @@ button:focus {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  background-color: #5fbaa7;
+  background-color: #10d078;
   color: white;
+}
+.labely{
+  position: absolute;
+  right: 3.5rem;
+  top: 6.5rem;
+  font-size: 11px;
+  color: #bfbfbf;
+}
+
+.labelyi{
+  position: absolute;
+  right: 4.1rem;
+  top: 12rem;
+  font-size: 11px;
+  color: #bfbfbf;
 }
